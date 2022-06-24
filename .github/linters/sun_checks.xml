@@ -43,9 +43,6 @@
     <property name="optional" value="true"/>
   </module>
 
-  <!-- Checks that a package-info.java file exists for each package.     -->
-  <!-- See https://checkstyle.org/config_javadoc.html#JavadocPackage -->
-
   <!-- Checks whether files end with a new line.                        -->
   <!-- See https://checkstyle.org/config_misc.html#NewlineAtEndOfFile -->
   <module name="NewlineAtEndOfFile"/>
@@ -60,25 +57,15 @@
     <property name="fileExtensions" value="java"/>
   </module>
 
-  <!-- Checks for whitespace                               -->
-  <!-- See https://checkstyle.org/config_whitespace.html -->
-
-  <!-- Miscellaneous other checks.                   -->
-  <!-- See https://checkstyle.org/config_misc.html -->
-
   <!-- Checks for Headers                                -->
   <!-- See https://checkstyle.org/config_header.html   -->
   <!-- <module name="Header"> -->
   <!--   <property name="headerFile" value="${checkstyle.header.file}"/> -->
   <!--   <property name="fileExtensions" value="java"/> -->
   <!-- </module> -->
-
   <!-- Enables @SuppressWarnings Support                -->
   <module name="SuppressWarningsFilter"/>
   <module name="TreeWalker">
-
-    <!-- Checks for Javadoc comments.                     -->
-    <!-- See https://checkstyle.org/config_javadoc.html -->
 
     <!-- Checks for Naming Conventions.                  -->
     <!-- See https://checkstyle.org/config_naming.html -->
