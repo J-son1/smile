@@ -12,15 +12,15 @@ public class Smile {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private Long id;
 
-  private Boolean isCrying = null;
+  private Boolean isCrying;
 
-  private Boolean isLaughing = null;
+  private Boolean isLaughing;
 
   public Smile() {}
 
-  public Smile(Boolean isCrying, Boolean isLaughing) {
-    this.isCrying = isCrying;
-    this.isLaughing = isLaughing;
+  public Smile(Boolean crying, Boolean laughing) {
+    this.isCrying = crying;
+    this.isLaughing = laughing;
   }
 
   public Long getId() {
@@ -31,16 +31,16 @@ public class Smile {
     return this.isCrying;
   }
 
-  public void setIsCrying(Boolean isCrying) {
-    this.isCrying = isCrying;
+  public void setIsCrying(Boolean crying) {
+    this.isCrying = crying;
   }
 
   public Boolean getIsLaughing() {
     return this.isLaughing;
   }
 
-  public void setIsLaughing(Boolean isLaughing) {
-    this.isLaughing = isLaughing;
+  public void setIsLaughing(Boolean laughing) {
+    this.isLaughing = laughing;
   }
   
 }
