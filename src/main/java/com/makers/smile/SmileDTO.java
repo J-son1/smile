@@ -4,7 +4,7 @@ public class SmileDTO {
   private Boolean isCrying;
   private Boolean isLaughing;
 
-  public SmileDTO () {}
+  public SmileDTO() {}
 
   public SmileDTO(Boolean isCrying, Boolean isLaughing) {
     this.isCrying = isCrying;
